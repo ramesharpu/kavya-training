@@ -27,11 +27,15 @@ def get_year():
 
 
 
-
-
-
-
-
+"""
+==> function with parameters and with return type
+This type of function takes input parameters and returns a value to the caller.
+It is used to perform a specific task or action based on the input provided by the caller and
+provide the result back to the caller.
+"""
+def add(num1, num2):
+    result = num1 + num2
+    return result
 
 
 
@@ -60,5 +64,12 @@ def greet_user(name):
 
 
 # greet()
+
 # greet_user("Kavya")
-get_year()
+
+# current_year = get_year()
+# print(current_year)
+
+
+sum = add(5,10)
+print("sum of the given two numbers = ", sum)

@@ -1,4 +1,4 @@
-st = {'fn':'kavya', 'ln':'shiva', 'email':'kavya@gmail.com'}
+import test
 
-st['fn']='KAYVA SHREE'
-print(st)
+print("this is from second program")
+test.add()
